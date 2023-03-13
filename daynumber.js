@@ -1,3 +1,5 @@
+
+// Switch
 let dayNUmber = 0;
 switch (dayNUmber) {
     case 0: dayNUmber = "Sunday"; break;
@@ -12,6 +14,8 @@ switch (dayNUmber) {
 }
 console.log(dayNUmber);
 
+
+// if else
 if (dayNUmber = 0) {
     console.log("Sunday");
 } else if (dayNUmber = 1) {
@@ -29,3 +33,9 @@ if (dayNUmber = 0) {
 } else {
     console.log("invalid day number");
 }
+
+// ternary operator
+let password = 'pas$';
+password.length >= 12 ? console.log('password is very strong') : password.length >= 8 ? console.log('welcome') : console.log('sorry');
+
+
